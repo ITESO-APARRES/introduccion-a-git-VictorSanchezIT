@@ -4,3 +4,7 @@ int main(void){
     printf("/nLinea editada desde GitHub");
     return 0;
 }
+
+void Saludo(char* nombre){
+    printf("Hola %s, como andamos?", nombre);
+}
